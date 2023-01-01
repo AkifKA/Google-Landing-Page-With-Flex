@@ -15,9 +15,8 @@ body {
   padding: 20px;
   display: flex;
   justify-content: space-between;
-  /* align-items: center;
-  gap: 1rem; */
-  border: 1px solid red;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .nav__left {
@@ -136,4 +135,64 @@ ul li a:hover {
 
 .main__language a {
   text-decoration: none;
+}
+
+/*? FOOTER */
+.footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #f2f2f2;
+  width: 100%;
+  line-height: 40px;
+}
+.footer__country {
+  font-size: 14px;
+  padding-left: 32px;
+  border-bottom: 1px solid #dadce0;
+  opacity: 0.8;
+}
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer__bottom--left {
+  /* float: left;
+  width: 40%; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__center {
+  /* float: left; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  opacity: 0.8;
+  padding: 1rem;
+  flex-grow: 1;
+}
+
+.footer__center--yaprak-img {
+  width: 20px;
+  height: 20px;
+}
+.footer__center--karbon-btn {
+  /* vertical-align: middle; */
+  /* margin-right: 0.3rem; */
+  font-size: 14px;
+}
+
+.footer__bottom--right {
+  /* float: right; */
+  display: flex;
+  justify-content: center;
+}
+
+.footer__bottom ul {
+  padding: 20px;
 }
