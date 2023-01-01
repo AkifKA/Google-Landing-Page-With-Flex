@@ -187,6 +187,11 @@ ul li a:hover {
   font-size: 14px;
 }
 
+.footer__center--karbon-btn:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .footer__bottom--right {
   /* float: right; */
   display: flex;
