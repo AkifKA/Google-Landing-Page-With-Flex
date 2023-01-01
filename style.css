@@ -1,0 +1,44 @@
+/** Resetting */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+/*? HEADING NAV */
+.nav {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center;
+  gap: 1rem; */
+  border: 1px solid red;
+}
+
+.nav__left {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.nav__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li a {
+  color: black;
+  padding: 0.5rem;
+  opacity: 0.8;
+  text-decoration: none;
+}
